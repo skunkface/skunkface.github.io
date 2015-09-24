@@ -1,0 +1,32 @@
+{
+  "name": "websitecm",
+  "version": "1.0.0",
+  "description": "Personal Resume Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skunkface/website.git"
+  },
+  "keywords": [
+    "chris",
+    "miller",
+    "personal",
+    "website",
+    "skunkface"
+  ],
+  "author": "Chris Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skunkface/website/issues"
+  },
+  "homepage": "https://github.com/skunkface/website#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "grunt": "^0.4.5",
+    "jekyll": "^3.0.0-beta1",
+    "jquery": "^2.1.4"
+  }
+}
