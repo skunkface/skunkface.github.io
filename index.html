@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This is a test webpage for fun, and shit">
+    <meta name="author" content="Chris Miller">
+    <link rel="icon" href="bootstrap/docs/examples/favicon.ico">
+
+    <title>Test Fun Time</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/testfun/">Skunkface</a>
+        </div>
+        <!--<div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>--><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Chris Miller</h1>
+        <p>Aspiring front end developer/degisner.</p>
+        <p class="small">Finding a better way to work.</p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="active"><a  data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#resume">Resume</a></li>
+        <li><a data-toggle="tab" href="#other">Other</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div class="well">
+            <p>I am a very quick learner with the ability to easily adapt to my surroundings. I have experience in Graphic Design for both web and print as well as Web Development work, focusing on HTML, CSS, PHP, JavaScript, and JQuery. Recently I have been learning AngularJS, Node.js and project asset management with npm. To go along with this I also have extensive knowledge of Adobe Photoshop and Illustrator. I have an intense desire to learn, always striving to expand and develop my abilities. This spring I graduated from the College of Idaho with a History degree; while this might seem like an unrelated field, I feel it has given me a unique view of how the small parts work together to form the final polished product. Understanding the connections between the small unseen pieces is something that I try to incorporate into every part of my life. The future is an unending wealth of knowledge, I look forward to discovering its treasures.</p>
+          </div> <!-- /container home -->
+        </div>
+        <div id="resume" class="tab-pane fade">
+          <div class="container">
+            <!-- Example row of columns -->
+            <h1>Experience</h1>
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Graphic and Interactive Intern</h2>
+                <h4>Sun Valley Resort, Idaho. June - August 2013</h4>
+                <p>Various graphic design and web development projects, also designed web and print ad campaigns. Primary technologies: Adobe Photoshop and Illustrator, some work with JavaScript and CSS.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Promotions Technician</h2>
+                <h4>Peak Broadcasting, Boise, Idaho - May 2011 - June 2012</h4>
+                <p>Technical work involving setting up sound equipment and radio broadcast technologies. Also required  promotion work to expand the visibility of the company within the market.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+             </div>
+              <div class="col-md-4">
+                <h2>Graphic/Web Development Intern</h2>
+                <h4>Sun Valley Resort, Idaho - June - August 2010</h4>
+                <p>Worked on various aspects of the resort website as well as designing advertising for display around the resort. Primary technologies: Adobe Photoshop and Illustrator, some work with CSS and JavaScript.</p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              </div>
+            </div>
+          </div> <!-- /container resume -->
+        </div>
+        <div id="other" class="tab-pane fade">
+           <!-- /container other -->
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright Skunkface Industries 2015</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="boostrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
