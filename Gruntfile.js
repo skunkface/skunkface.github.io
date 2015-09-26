@@ -2,13 +2,13 @@ module.exports = function(grunt) {
   grunt.initConfig({
     serve: {
       options: {
-        port: 9001,
+        port: 9002,
         silently: true
       }
     },
     open: {
       build: {
-        path: 'http://localhost:9001/index.html'
+        path: 'http://localhost:9002/index.html'
       }
     }
   });
