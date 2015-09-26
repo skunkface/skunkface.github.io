@@ -26,7 +26,10 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "grunt": "^0.4.5",
-    "jekyll": "^3.0.0-beta1",
     "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "grunt-open": "^0.2.3",
+    "grunt-serve": "^0.1.6"
   }
 }
