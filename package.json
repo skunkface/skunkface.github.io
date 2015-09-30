@@ -26,7 +26,8 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "grunt": "^0.4.5",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "octicons": "*"
   },
   "devDependencies": {
     "grunt-open": "^0.2.3",
