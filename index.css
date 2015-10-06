@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 2px;
   padding-bottom: 20px;
   background-color: #D4D7DB;
 }
@@ -8,8 +8,10 @@ body {
   width: 100%;
 }
 .navbar {
-  opacity: .99;
+  opacity: .98;
   background-color: #2E5274;
+  display: none;
+  font-size: 20px;
 }
 .jumbotron {
   background-color: #fdfdfd;
@@ -64,6 +66,12 @@ a.link:active {
   color: #343434;
   text-decoration: none;
 }
+.nocall {
+  display: none;
+}
+.mobileAlert {
+  display: none;
+}
 @media (min-width: 768px) {
   .contact .call {
     display: none;
@@ -73,6 +81,20 @@ a.link:active {
   }
   .content {
     padding-left: 15px;
+  }
+  .nocall {
+    display: inline-block;
+  }
+  .callable {
+    display: none;
+  }
+  .mobileAlert {
+    position: fixed;
+    top: 51px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .75;
   }
 }
 hr {
