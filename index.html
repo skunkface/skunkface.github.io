@@ -33,6 +33,8 @@
           <p>My name is Chris Miller. </p>
           <h1>about me.</h1>
           <p>Having graduated from the <a href="https://collegeofidaho.edu">College of Idaho</a> this spring, I have been released into the world, free to explore and further develop my skills. While exploring the ever evolving world of design, I have become enthralled with the idea of Responsive design. In a world where so many people are accessing the internet on so many devices, everyone should have a wonderful user experience, regardless of their device.</p>
+          <h1>current projects.</h1>
+          <p>Front End Web Development for<a href="https://www.erincondren.com">Erin Condren</a></p>
           <h1>links.</h1>
           <a href="resume.html">Resume</a><br />
           <a class="link" href="https://github.com/skunkface">github.com/skunkface</a><br />
@@ -41,15 +43,14 @@
         </div>
       </div>
     </div>
-    
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/jquery.backstretch.min.js"></script>
     <script type="text/javascript">
       $(function(){
         $(window).resize(function(){
           if($(this).width() >= 767){
-            $.backstretch("https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/225478_10150234149701187_539815_n.jpg?oh=6cb0c9b0eee8cac3768e15ec2a88ec75&oe=56C2D2B0", {centeredX: false, centeredY: false});
-          } 
+            $.backstretch("background.jpg", {centeredX: false, centeredY: false});
+          }
         })
         .resize();//trigger resize on page load
       });
